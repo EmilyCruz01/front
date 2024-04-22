@@ -111,7 +111,7 @@ export default function Home(): JSX.Element {
       </form>
       {pagoaInfo && (
         <div>
-          <h2>Pago Confirmado:</h2>
+          <h2>Orden Confirmada:</h2>
           <p>orden: {pagoaInfo.descripcion}</p>
           <p>total:{pagoaInfo.total}</p>
           
